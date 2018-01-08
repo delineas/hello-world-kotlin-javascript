@@ -6,9 +6,9 @@ var helloworld = function (_, Kotlin) {
   var println = Kotlin.kotlin.io.println_s8jyv4$;
   var ensureNotNull = Kotlin.ensureNotNull;
   function main(args) {
-    println('Hello');
-    var root = document.getElementById('root');
-    ensureNotNull(root).innerHTML = '<h1>Hola mundo<\/h1>';
+    println('Hola mundo');
+    var msg = document.getElementById('msg');
+    ensureNotNull(msg).innerHTML = '<h1>Hola mundo<\/h1>';
   }
   _.main_kand9s$ = main;
   main([]);
